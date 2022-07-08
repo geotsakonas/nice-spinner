@@ -1,0 +1,13 @@
+global:
+     metrics:
+        exclude:
+            - /app/src/*
+      
+modules:
+    - path: "/src/core"
+      violations:
+        exclude:
+          - Disallow Unused Variables
+          - disallow variable redeclaration
+        files_include:
+          - /tests/*
