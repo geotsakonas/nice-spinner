@@ -3,13 +3,11 @@ global:
     exclude: 
       - /app/src/*
 modules: 
-    path: /src/core
-     metrics: 
+  - path: "/src/core"
+    metrics: 
       exclude: 
         - /frontend/test/*
-     violations: 
+    violations: 
       exclude: 
         - "Disallow Unused Variables"
         - "disallow variable redeclaration"
-      files_include: 
-        - /tests/*
