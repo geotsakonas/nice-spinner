@@ -4,9 +4,11 @@ global:
       - /app/src/*
 modules: 
   - path: "/app/src/"
-    metrics: 
-      exclude: 
-        - /frontend/test/*
+    metrics:
+      exclude:
+        - /app/src/main/*
+      include: 
+        - /app/src/main/java/org/angmarc/app/MainActivity.java
     violations: 
       exclude: 
         - "Disallow Unused Variables"
