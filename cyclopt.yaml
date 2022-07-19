@@ -3,7 +3,7 @@ global:
     exclude: 
       - /app/src/*
 modules: 
-  - path: "/src/core"
+  - path: "/app/src/"
     metrics: 
       exclude: 
         - /frontend/test/*
