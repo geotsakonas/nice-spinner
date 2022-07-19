@@ -8,7 +8,7 @@ modules:
       exclude:
         - /app/src/main/*
       include: 
-        - /app/src/main/java/org/angmarc/app/MainActivity.java
+        - /app/src/main/*
     violations: 
       exclude: 
         - "Disallow Unused Variables"
